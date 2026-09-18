@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendWise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SpendWise</h1>
+        <p>Smart and simple budgeting</p>
+    </header>
+
+    <main>
+        <div class="budget-card">
+            <h2>Monthly Budget</h2>
+            <p>Enter your budget and expenses to see your remaining balance.</p>
+
+            <button id="startButton">Start Budget</button>
+        </div>
+
+        <div class="info-card">
+            <h2>How It Works</h2>
+
+            <div class="items">
+                <div>
+                    <h3>💰 Budget</h3>
+                    <p>Enter your monthly budget.</p>
+                </div>
+
+                <div>
+                    <h3>🧾 Expenses</h3>
+                    <p>Enter your spending categories.</p>
+                </div>
+
+                <div>
+                    <h3>📊 Balance</h3>
+                    <p>See how much money remains.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="results" class="results">
+            <h2>Budget Summary</h2>
+            <p id="budgetResult"></p>
+            <p id="expensesResult"></p>
+            <p id="balanceResult"></p>
+            <p id="statusResult"></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>SpendWise 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
